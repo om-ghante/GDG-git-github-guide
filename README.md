@@ -58,71 +58,79 @@ Guide participants to create a GitHub account at [https://github.com](https://gi
     ```
 
 ## **Step 9: Push Files to a Repository**
-1. Initialize a repository:
-    ```bash
-    git init
-    ```
-2. Add a remote origin:
-    ```bash
-    git remote add origin https://github.com/username/repo_name.git
-    ```
-3. Verify remote:
-    ```bash
-    git remote -v
-    ```
-4. Set URL with access token:
-    ```bash
-    git remote set-url origin https://personal-access-token@github.com/username/repo_name.git
-    ```
-5. Fetch changes from the repository:
-    ```bash
-    git fetch origin
-    ```
-6. Switch to the main branch:
-    ```bash
-    git switch main
-    ```
-7. Add and commit files:
-    ```bash
-    git add .
-    git commit -m "Your commit message"
-    ```
-8. Push changes to the repository:
-    ```bash
-    git push origin branch_name
-    ```
 
+```
+git init
+```     
+```
+Git remote add origin https://github.com/username/repo_name.git 
+```
+```
+Git remote –v 
+```
+```
+Git remote set-url origin https://personal-access-token@github.com/usrname/repo_name 
+```
+```
+Git fetch origin  
+```
+```
+Git switch main 
+```
+```
+Git branch 
+```
+```
+Git pull origin 
+```
+```
+Git log 
+```
+```
+Git add . / git add specific_folder or specific_file  
+```
+```
+Git commit –m “your msg” 
+```
+```
+git push origin main 
+```
 ## **Step 10: Collaboration and Open Source**
 
 ## **Step 11: Forking a Repository**
 
 ## **Step 12: Pull Requests (PRs)**
-1. Clone the forked repository:
-    ```bash
-    git clone https://github.com/username/repo_name.git
-    ```
-2. Add the upstream repository:
-    ```bash
-    git remote add upstream https://github.com/owner_username/repo_name.git
-    ```
-3. Fetch changes from upstream:
-    ```bash
-    git fetch upstream
-    ```
-4. Create and switch to a new branch:
-    ```bash
-    git branch branch_name
-    git switch branch_name
-    ```
-5. Add and commit changes:
-    ```bash
-    git add .
-    git commit -m "Your commit message"
-    ```
-6. Push changes:
-    ```bash
-    git push origin branch_name
-    ```
+
+```    
+git init 
+```
+```
+git clone https://github.com/username/repo_name 
+```
+```
+cd folder_name 
+```
+```
+git remote add origin https://github.com/username/repo_name.git 
+```
+```
+Git remote add upstream https://github.com/owners_usrname/repo_name.git 
+```
+```
+Git fetch upstream 
+```
+```
+Git branch > git branch branch_name > git switch branch branch_name / git checkout –b branch_name 
+```
+```
+Git add . / git add specific_folder or specific_file  
+```
+```
+Git commit –m “your msg” 
+```
+```
+git push origin branch_name 
+```
 
 ## **Step 13: Issues**
 
