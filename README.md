@@ -1,34 +1,20 @@
 # Step-by-Step Guide to Git and GitHub
 
 ## **Step 1: Orientation**
-Begin by understanding the purpose and importance of Git and GitHub for version control and collaboration in software development.
-
----
 
 ## **Step 2: Introduction to the Event**
+
 ### Topics Covered:
 1. **What is GitHub?**
-   - GitHub is a web-based platform for version control and collaboration that enables developers to work together on projects.
 
 2. **Importance of GitHub:**
-   - Centralized version control for code.
-   - Enables collaboration among developers.
-   - Supports open-source contributions.
 
 3. **Uses of GitHub:**
-   - Hosting repositories.
-   - Code review and collaboration.
-   - Issue tracking and project management.
 
 4. **What is Git?**
-   - Git is a distributed version control system that tracks changes in files and coordinates work among developers.
-
----
 
 ## **Step 3: Account Creation**
 Guide participants to create a GitHub account at [https://github.com](https://github.com).
-
----
 
 ## **Step 4: Git Installation and Personal Access Token Setup**
 1. Install Git from [https://git-scm.com/](https://git-scm.com/).
@@ -40,25 +26,14 @@ Guide participants to create a GitHub account at [https://github.com](https://gi
     git config --global github.token 'your-personal-access-token'
     ```
 
----
-
 ## **Step 5: Explanation of GitHub Dashboard**
-Walk through the GitHub interface, explaining key components like repositories, branches, pull requests, and actions.
-
----
 
 ## **Step 6: Repository Basics**
 1. **What is a Repository (Repo)?**
-   - A repository is a storage location for your project’s files and history.
+   
 2. **Creating Your First Repo:**
-   - Demonstrate creating a public or private repository.
-
----
 
 ## **Step 7: What is a README.md File?**
-- A README.md file describes the purpose and details of the project. It’s often the first thing collaborators see when visiting your repository.
-
----
 
 ## **Step 8: Frequently Used Commands**
 1. **Initialize a Repository:**
@@ -81,8 +56,6 @@ Walk through the GitHub interface, explaining key components like repositories, 
     ```bash
     git branch
     ```
-
----
 
 ## **Step 9: Push Files to a Repository**
 1. Initialize a repository:
@@ -119,17 +92,9 @@ Walk through the GitHub interface, explaining key components like repositories, 
     git push origin branch_name
     ```
 
----
-
 ## **Step 10: Collaboration and Open Source**
-- Explain collaboration concepts such as teamwork, pull requests, and contributing to open-source projects.
-
----
 
 ## **Step 11: Forking a Repository**
-- Forking creates a personal copy of another user’s repository to contribute changes.
-
----
 
 ## **Step 12: Pull Requests (PRs)**
 1. Clone the forked repository:
@@ -159,10 +124,7 @@ Walk through the GitHub interface, explaining key components like repositories, 
     git push origin branch_name
     ```
 
----
-
 ## **Step 13: Issues**
-- Explain how to raise issues on someone else’s repository to report bugs or suggest improvements.
 
 ---
 
