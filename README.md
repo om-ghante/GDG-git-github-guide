@@ -64,34 +64,34 @@ Guide participants to create a GitHub account at [https://github.com](https://gi
 git init
 ```     
 ```
-Git remote add origin https://github.com/username/repo_name.git 
+git remote add origin https://github.com/username/repo_name.git 
 ```
 ```
-Git remote –v 
+git remote –v 
 ```
 ```
-Git remote set-url origin https://personal-access-token@github.com/usrname/repo_name 
+git remote set-url origin https://personal-access-token@github.com/usrname/repo_name 
 ```
 ```
-Git fetch origin  
+git fetch origin  
 ```
 ```
-Git switch main 
+git switch main 
 ```
 ```
-Git branch 
+git branch 
 ```
 ```
-Git pull origin 
+git pull origin 
 ```
 ```
-Git log 
+git log 
 ```
 ```
-Git add . / git add specific_folder or specific_file  
+git add . / git add specific_folder or specific_file  
 ```
 ```
-Git commit –m “your msg” 
+git commit –m “your msg” 
 ```
 ```
 git push origin main 
@@ -115,19 +115,19 @@ cd folder_name
 git remote add origin https://github.com/username/repo_name.git 
 ```
 ```
-Git remote add upstream https://github.com/owners_usrname/repo_name.git 
+git remote add upstream https://github.com/owners_usrname/repo_name.git 
 ```
 ```
-Git fetch upstream 
+git fetch upstream 
 ```
 ```
-Git branch > git branch branch_name > git switch branch branch_name / git checkout –b branch_name 
+git branch > git branch branch_name > git switch branch branch_name / git checkout –b branch_name 
 ```
 ```
-Git add . / git add specific_folder or specific_file  
+git add . / git add specific_folder or specific_file  
 ```
 ```
-Git commit –m “your msg” 
+git commit –m “your msg” 
 ```
 ```
 git push origin branch_name 
