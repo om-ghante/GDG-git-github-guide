@@ -18,7 +18,8 @@ Guide participants to create a GitHub account at [https://github.com](https://gi
 
 ## **Step 4: Git Installation and Personal Access Token Setup**
 1. Install Git from [https://git-scm.com/](https://git-scm.com/).
-2. Configure Git with your information:
+2. [Installation for mac OS](https://www.youtube.com/watch?v=B4qsvQ5IqWk)
+3. Configure Git with your information:
     ```bash
     git config --global user.name 'your-username'
     git config --global user.email 'your-email-used-during-account-creation'
